@@ -18,3 +18,38 @@ See [pathnorth.ca](https://www.pathnorth.ca) for public-facing status.
 ---
 
 ## Repository Structure
+---
+pathnorth/
+
+├── README.md          # This file
+
+├── docs/              # Architecture decisions, design notes, governance
+
+├── platform/          # Learner-facing interface (in development)
+
+├── prompts/           # AI dialogue logic and question sets
+
+└── content/           # UAS course material index (references only — no classified content)
+
+
+## Core Concept
+
+The model is built on three principles from the v5.6 concept paper:
+
+1. **Reading first** — the AI does not replace content; it directs the learner to curated approved material
+2. **Structured dialogue** — AI-supported questioning checks understanding, not just completion
+3. **Human-set standards** — progression rules, content, and oversight remain with qualified humans
+
+---
+
+## Notices
+
+- PathNorth is **not** an official CAF, DND, Government of Canada, NATO, or CMIA program
+- Do not store classified, protected, or operationally sensitive content in this repository
+- This repository is **private** during concept development
+
+---
+
+## Contact
+
+Project inquiries: contact@pathnorth.ca
